@@ -1,12 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package frames;
 
 /**
- *
- * @author Franz Joel Quispe Mamani
+ * @author Franz Joel Quispe Mamani, Rodrigo Escobar Condori
  */
 public class frmSupervisor extends javax.swing.JFrame {
 
@@ -15,6 +11,7 @@ public class frmSupervisor extends javax.swing.JFrame {
      */
     public frmSupervisor() {
         initComponents();
+        this.setLocationRelativeTo(this);//IMPORTANTE, coloca el formulario al centro
     }
 
     /**
@@ -29,6 +26,7 @@ public class frmSupervisor extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Supervisor");
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jLabel1.setText("BIENVENIDO SUPERVISOR");
